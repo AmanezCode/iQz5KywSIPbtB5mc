@@ -72,7 +72,6 @@ streamlit run streamlit_demo.py
 ```
 car-condition-classifier/
 ├── main.py                     # Основная модель и обучение
-├── localizer.py                # Модель с локализацией внимания
 ├── demo.py                     # Веб-интерфейс
 ├── README.md                   # Документация
 ├── data/
@@ -205,5 +204,5 @@ def predict():
 
 - **Минимум**: 500 изображений на класс
 - **Оптимально**: 2000+ изображений на класс
-
 - **Источники**: Kolesa.kz, auto.ru
+
